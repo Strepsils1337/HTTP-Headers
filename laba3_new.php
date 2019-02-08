@@ -1,7 +1,3 @@
-<?
-header('location: http://parser/laba3_new.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,9 +23,7 @@ header('location: http://parser/laba3_new.php');
 </div>
 <div class="content">
  
- <?
-
- ?>       
+ <img src="show.php">      
 
 </div>
 
@@ -48,8 +42,6 @@ header('location: http://parser/laba3_new.php');
     2018&copy; <a href="/">Кіно портал</a>
 
 </footer>
-
-
 
 </body>
 </html>
