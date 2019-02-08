@@ -1,7 +1,10 @@
 <?
-      
+      if($_GET["redirect"]){
+        echo "hello mthfck";
+            die();
+        }
         header('location: http://parser/laba2.php?redirect=1');
-       die();  
+         
         
 ?>
 <!DOCTYPE html>
