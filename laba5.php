@@ -1,9 +1,21 @@
-<?header('Refresh: 50; URL=http://parser/new_img.jpg');
-//print_r ($_SERVER);
-$headers =  getallheaders();
-foreach($headers as $key=>$val){
-  echo $key . ': ' . $val . '<br>';
-}
+<?
+// $ch = curl_init();
+// curl_setopt($ch, CURLOPT_URL, "http://parser/new_img.jpg");
+// curl_setopt($ch, CURLOPT_HEADER, 1); 
+// // ...
+
+// $response = curl_exec($ch);
+
+// // Then, after your curl_exec call:
+// $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+// $header = substr($response, 1, $header_size);
+// $body = substr($response, $header_size);
+
+// curl_close($ch);
+$url = "http://parser/new_img.jpg";
+print_r(get_headers($url));
+//var_dump($header_size);
+//echo $header;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +53,7 @@ foreach($headers as $key=>$val){
     header("Content-Length: ".filesize($filename));
     header("Content-Disposition: filename=".$file_name);
     readfile($filename);*/
-    var_dump(headers_list());
+    //var_dump(headers_list());
  ?>   
 
 </div>
