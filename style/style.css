@@ -1,0 +1,81 @@
+body{
+          font-family: "Fira Code Retina";
+          margin: auto;
+    background-color: #afb9bf;
+    width: 800px;
+    height: auto;
+    text-align: center;
+
+      }
+table{
+    margin: 0 auto;
+}
+p {
+
+    text-align: justify !important;
+
+    text-indent: 20px;
+}
+.content{
+    text-align: justify; padding:10px; height:400px; font-size:20px;
+}
+.i {
+    margin:5px;
+    float:left;
+    width: 150px;
+    padding-right:10px; }
+img{
+    width: 800px;
+    padding: 0;
+}
+.menu {
+margin: 5px;
+}
+.menu a{
+
+    padding: 15px;
+}
+a{
+
+    color: black;
+}
+input{
+    width: 350px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius:10px;
+    margin: 10px auto;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.6);
+}
+input[type="submit"],input[type="reset"]{
+    background: black;
+    color: #afb9bf;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+    background: #afb9bf;
+    color: black;
+}
+.but{
+    width: 180px;
+    margin-left: 15px;
+}
+
+.content{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto;
+    background-color: #96a0a6;
+}
+footer{
+    background-color: black;
+    color: #afb9bf;
+}
+footer a{
+    color: #afb9bf;
+}

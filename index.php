@@ -1,4 +1,3 @@
-<?
-echo '123';
-
-?>
+<?php
+require 'laba1.php'; /*("/laba1.php");*/
+?>	
